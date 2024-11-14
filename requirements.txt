@@ -1,0 +1,7 @@
+-e .
+numpy
+pandas
+ #this will automatically trigger setup.py file
+
+#so in get_requirements when we are reading this '-e' will also come 
+#so when we are running the code here it should not come
